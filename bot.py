@@ -5,10 +5,6 @@ import traceback
 import sys
 from html import escape
 
-from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
-from telegram.ext.dispatcher import run_async
-from telegram.contrib.botan import Botan
-
 import python3pickledb as pickledb
 
 # Configuration
